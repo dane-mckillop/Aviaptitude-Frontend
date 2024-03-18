@@ -1,0 +1,17 @@
+.footer-container {
+    position: fixed;
+    color: #D3F0FF;
+    text-decoration:underline;
+    background-color: #333;
+    font-size: 10px;
+    height: 40px;
+    min-height: 5.8vh;
+    max-height: 8vh;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index:100;
+    overflow: hidden;
+}

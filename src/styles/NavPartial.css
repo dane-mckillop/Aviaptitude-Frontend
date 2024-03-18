@@ -1,0 +1,15 @@
+.links {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    color: #D3F0FF;
+    z-index:75;
+    padding-bottom: 4px;
+}
+
+.link {
+    color: #D3F0FF;
+    padding-left:10px;
+    padding-right:10px;
+}

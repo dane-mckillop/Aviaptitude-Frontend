@@ -1,0 +1,49 @@
+.register-container {
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    min-width: 320px;
+    border-radius: 1rem;
+    background-color: #95E0FF;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+.register-title {
+    color: #0189C3;
+    padding-top: 10px;
+}
+
+.input-form {
+    padding-bottom:30px;
+    justify-content:center;
+    align-items:center;
+}
+
+.inputs {
+    align-items:center;
+    justify-content: center;
+}
+
+.input-field {
+    background-color: #D3F0FF;
+    border-radius:4px;
+    width: 75%;
+    min-width: 400px;
+}
+
+.submit-button {
+    border-radius:4px;
+    color:#0189C3;
+}
+
+.register-warning {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 60%;
+    transform: 'translate(-50%, -50%)';
+    z-index: 999;
+}

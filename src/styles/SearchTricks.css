@@ -1,0 +1,22 @@
+.search-tricks-format {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color:#95E0FF;
+    border-radius: 1rem;
+}
+
+.search-tricks-container {
+    background-color:#95E0FF;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.search-tricks-img {
+    height: 70%;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}

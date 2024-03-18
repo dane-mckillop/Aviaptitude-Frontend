@@ -1,0 +1,80 @@
+.bird-page-format {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    min-width: 50vw;
+    justify-content: center; 
+    align-items: center;
+}
+
+.bird-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 2vh;
+    height: 90vh;
+    width: 100%;
+    background-color: #0189C3;
+    align-items: center;
+}
+
+.bird-page-title {
+    max-width: 90%;
+    height: 7vh;
+    color: #D3F0FF;
+}
+
+.bird-page-icon-border {
+    display: flex;
+    border-radius: 100%;
+    height: 14vh;
+    width: 14vh;
+    background-color: #D3F0FF;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+.bird-page-icon {
+    width: 13vh
+}
+
+.bird-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    width: 50%;
+    min-width: 260px;
+    color: #0189C3;
+    background-color: #D3F0FF;
+    border-radius: 1rem;
+    margin-bottom: 1vh;
+    overflow:hidden;
+}
+
+.bird-detail {
+    max-width:90%;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.tricks-table-title-bird {
+    max-width: 90%;
+    height: 5vh;
+    color: #D3F0FF;
+    overflow: hidden;
+}
+
+.bird-tricks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 43.5vh;
+    width: 98%;
+    overflow: auto;
+}

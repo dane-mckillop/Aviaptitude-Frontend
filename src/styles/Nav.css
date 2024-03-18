@@ -1,0 +1,32 @@
+.nav-container {
+    display:flex;
+    flex-direction: row;
+    padding-top: 3px;
+    align-items: center;
+    height: 100%;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    color: #D3F0FF;
+    z-index:75;
+    height: 100%;
+}
+
+.burger {
+    height:40px;
+    padding-left: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon-home {
+    height:22px;
+}
+
+.link {
+    color: #D3F0FF;
+}

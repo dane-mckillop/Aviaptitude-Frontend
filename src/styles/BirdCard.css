@@ -1,0 +1,49 @@
+.bird-name {
+    color: #D3F0FF;
+}
+
+.bird-name-u {
+    color: #D3F0FF;
+}
+
+.bird-box {
+    display:inline-flex;
+    width: 95%;
+    height: 70%;
+    justify-content: left;
+    align-items: center;
+    color: #D3F0FF;
+}
+
+.bird-card-icon-border {
+    display: flex;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: #D3F0FF;
+    align-items: center;
+    justify-content: center;
+}
+
+.bird-card-icon {
+    height: 55px;
+}
+
+.known-tricks {
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+
+.tricks-list {
+    margin: 0;
+    padding-left: 25px;
+    text-align:left;
+}
+
+.species {
+    min-height: 20px;
+    color: #D3F0FF;
+}
